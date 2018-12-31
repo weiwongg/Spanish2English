@@ -4,7 +4,7 @@ Implementation of Neural Machine Translation from Spanish to English
 
 Model: Encoder and Decoder model with Attention
 
-Dataset: 
+Dataset: tf.keras.utils.get_file('spa-eng.zip', origin = 'http://download.tensorflow.org/data/spa-eng.zip',extract = True)
 
 How to train model in Google Colaboratory 
 
